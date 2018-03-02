@@ -1,0 +1,5 @@
+/Users/niko/Documents/Courses/C++/08_Gabriel_Taubin/QtCalc2/build/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/08_Gabriel_Taubin/QtCalc2/build/CMakeFiles/QtCalc2.dir
+/Users/niko/Documents/Courses/C++/08_Gabriel_Taubin/QtCalc2/build/CMakeFiles/QtCalc2_autogen.dir
+/Users/niko/Documents/Courses/C++/08_Gabriel_Taubin/QtCalc2/build/CMakeFiles/ALL_BUILD.dir
+/Users/niko/Documents/Courses/C++/08_Gabriel_Taubin/QtCalc2/build/CMakeFiles/ZERO_CHECK.dir

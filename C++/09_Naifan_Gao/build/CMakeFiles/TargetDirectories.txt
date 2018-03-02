@@ -1,0 +1,17 @@
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/CMakeFiles/ALL_BUILD.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/CMakeFiles/ZERO_CHECK.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/ifs/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/ifs/CMakeFiles/ifs.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/ifs/CMakeFiles/ifs_autogen.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/util/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/util/CMakeFiles/util.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/util/CMakeFiles/util_autogen.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/test/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/test/CMakeFiles/ifsTest.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/test/CMakeFiles/ifsTest_autogen.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/test/CMakeFiles/ALL_BUILD.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/test/CMakeFiles/ZERO_CHECK.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/viewer/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/viewer/CMakeFiles/IfsViewer2017.dir
+/Users/niko/Documents/Courses/C++/09_Naifan_Gao/build/viewer/CMakeFiles/IfsViewer2017_autogen.dir

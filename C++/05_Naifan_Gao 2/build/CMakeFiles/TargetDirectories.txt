@@ -1,0 +1,4 @@
+/Users/niko/Documents/Courses/C++/05_Naifan_Gao 2/build/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/05_Naifan_Gao 2/build/CMakeFiles/calc5.dir
+/Users/niko/Documents/Courses/C++/05_Naifan_Gao 2/build/CMakeFiles/ALL_BUILD.dir
+/Users/niko/Documents/Courses/C++/05_Naifan_Gao 2/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,2738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		231B80ED81344CED8B1E8A0C /* WrlViewer1_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 03CE81CD29284DBBB75B5246 /* Build configuration list for PBXAggregateTarget "WrlViewer1_autogen" */;
+			buildPhases = (
+				1C8C507100C84F6799C11D4E /* CMake Rules */,
+			);
+			dependencies = (
+				CA0C913FEE7540A28064C9E1 /* PBXTargetDependency */,
+				B1307AD3B6654544B9AC02E6 /* PBXTargetDependency */,
+				45720E29E1A14C96B38C40FC /* PBXTargetDependency */,
+			);
+			name = WrlViewer1_autogen;
+			productName = WrlViewer1_autogen;
+		};
+		62F41CAD20644320B7D09973 /* wrl_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC40680562A447A5B6B1C59D /* Build configuration list for PBXAggregateTarget "wrl_autogen" */;
+			buildPhases = (
+				CCD02ACE24B240E19C8D7947 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = wrl_autogen;
+			productName = wrl_autogen;
+		};
+		704344209AD84BDB9D47B415 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5EFDCEFBC5954208A68D9369 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4C3170A9E1574AA29A38FC2E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		948033CB61BD4380B0D78EF3 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 044C3073EE8A4B21AC9EFEFE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				5E559F05FB044683B1D264AC /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F35F52A53B124D74B7773BBC /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		98938B5FDD8F44B9A4749171 /* util_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EEEAA8B1191B460A8FD8B584 /* Build configuration list for PBXAggregateTarget "util_autogen" */;
+			buildPhases = (
+				9CFDB028DE0A4C6997266085 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = util_autogen;
+			productName = util_autogen;
+		};
+		C83E766A9380437F9EFBF10B /* wrltest_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 09682177C7B244B192FAA09D /* Build configuration list for PBXAggregateTarget "wrltest_autogen" */;
+			buildPhases = (
+				6E9F82631FA3402FA2F0E778 /* CMake Rules */,
+			);
+			dependencies = (
+				C7E99128A90E4DA8B96E034B /* PBXTargetDependency */,
+				00069F5FAB8D4C7EA356EE29 /* PBXTargetDependency */,
+				6BEB612870DC49D09460B983 /* PBXTargetDependency */,
+			);
+			name = wrltest_autogen;
+			productName = wrltest_autogen;
+		};
+		DD23C3BAA99B40028147A6AF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B4C35202C7414AFFB7F85FB5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EC1F65CFB4B94BD09A048CE8 /* CMake Rules */,
+			);
+			dependencies = (
+				7CB1F081CC6A4D17A8BA9763 /* PBXTargetDependency */,
+				E7E01B0779714DA698B23E17 /* PBXTargetDependency */,
+				939CEDA1DBBC41259603E893 /* PBXTargetDependency */,
+				054C4177AD2F4E01A836D1AA /* PBXTargetDependency */,
+				946C5CEB710C4D2C968A2A06 /* PBXTargetDependency */,
+				76B6B6C5AE244898BA0821A6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EDFDD86C9B0E45E495F5B78E /* io_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E87FE013B2F84D5B93DFEBA0 /* Build configuration list for PBXAggregateTarget "io_autogen" */;
+			buildPhases = (
+				8EAD256E06464F669336691A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = io_autogen;
+			productName = io_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00F118066176482FB82B6DBE /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.cpp */ = {isa = PBXBuildFile; fileRef = 0CDA20C11511470AB90654E9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.cpp */; };
+		0602D25722614B718BF9C9BC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.cpp */ = {isa = PBXBuildFile; fileRef = 642D20F2EBAA458FA8248395 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.cpp */; };
+		094AE19F1FBC4970892B960D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A1CEBE3B0BBB44F9A7B80941 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/CMakeLists.txt */; };
+		0986D2EC84E64EA4BB43095D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.hpp */ = {isa = PBXBuildFile; fileRef = 4FE2C128CDBD429DB3316C4B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.hpp */; };
+		09A98322CAB445248227DD59 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.cpp */ = {isa = PBXBuildFile; fileRef = A1ECA8095D90411E8A852656 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.cpp */; };
+		0BEC7A70D1534F01BEF76456 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.hpp */ = {isa = PBXBuildFile; fileRef = A66F0E01C6254D8FA6134251 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.hpp */; };
+		1197707B4DFE46D3993BBB48 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.hpp */ = {isa = PBXBuildFile; fileRef = 7C5983116F5A4D9D932E8769 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.hpp */; };
+		12034BEE6D9C4BDBAC1FEB69 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.cpp */ = {isa = PBXBuildFile; fileRef = 4B304CBC52264C1BBCB3712F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.cpp */; };
+		12F468F8FB394110A4786281 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.hpp */ = {isa = PBXBuildFile; fileRef = 441373E6FE3E40F9A3129C99 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.hpp */; };
+		16A81AE58C1E459B847D8640 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.cpp */ = {isa = PBXBuildFile; fileRef = 3CD3816D10474BA1B23B66D1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.cpp */; };
+		1F0AE5B6EF504F3AB49AABDB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.hpp */ = {isa = PBXBuildFile; fileRef = 9C9A2499AA0D4E0E9F72C84E /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.hpp */; };
+		20C7AB1043134CCF95C8A401 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerApp.cpp */ = {isa = PBXBuildFile; fileRef = 4C0D3C02F15E4EED87511023 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerApp.cpp */; };
+		2D90C9A8DED04D0AAFB899B8 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.hpp */ = {isa = PBXBuildFile; fileRef = A6867AD7DA164DAA81620F24 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.hpp */; };
+		30B9B9D8813641479B4A7CB9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/StrException.hpp */ = {isa = PBXBuildFile; fileRef = 29F6563AA277403D8209E967 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/StrException.hpp */; };
+		386BAB9DC5514E80B9A96C4D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = F2BF0BCC892F43A4BDDE1824 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/mocs_compilation.cpp */; };
+		3BF303CD03AE45DF9260244B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/assets/WrlViewer.icns */ = {isa = PBXBuildFile; fileRef = 9FB6A3BCD989404E820920AA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/assets/WrlViewer.icns */; };
+		439BCAA083474C10864CB057 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.cpp */ = {isa = PBXBuildFile; fileRef = 81A87303C6354CEDBB63D163 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.cpp */; };
+		452D5AFCB9B9443F8544132C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CE69447FD15B4B6CA02D5EA3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/CMakeLists.txt */; };
+		470AF35412EF4197B81E7D82 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.cpp */ = {isa = PBXBuildFile; fileRef = 63045677AC30459E99021DCE /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.cpp */; };
+		49D41B32C15E48EC99297FA3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.cpp */ = {isa = PBXBuildFile; fileRef = CC6296D9B97947B5B517E557 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.cpp */; };
+		4E6D76BCCEC14A6B89AE33D7 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.cpp */ = {isa = PBXBuildFile; fileRef = E05E153539D1446E94589338 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.cpp */; };
+		518DC2A28FDF42C7A756EFF6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Node.hpp */ = {isa = PBXBuildFile; fileRef = 5C936EA864824554ABEC14E4 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Node.hpp */; };
+		525923AEE232420DB90D42F0 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.hpp */ = {isa = PBXBuildFile; fileRef = 342E11B3AE5C45B8811345A5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.hpp */; };
+		52DF5C6D7C8A4F65AA20409F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.hpp */ = {isa = PBXBuildFile; fileRef = DED22731ABC648689112B678 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.hpp */; };
+		5471178FB59046A695751C0A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.hpp */ = {isa = PBXBuildFile; fileRef = 6D6826C50E7D41C39C2F4152 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.hpp */; };
+		55154DB28262422686551A0C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.cpp */ = {isa = PBXBuildFile; fileRef = 8A3F2C06B5A1464FB2863A5F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.cpp */; };
+		554EB9EC510147EE843BCAF7 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Loader.hpp */ = {isa = PBXBuildFile; fileRef = C99D443719C1476792C233CB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Loader.hpp */; };
+		56892D72DC1A4F2DBA1E14B2 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.cpp */ = {isa = PBXBuildFile; fileRef = 6ACACBA69CA14896B7DCE9DD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.cpp */; };
+		5B3BC4AC064C48908603C69A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = ADDCB05FD908490CBBA90D8A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/mocs_compilation.cpp */; };
+		5F7F944DB1BB4F41913E87C5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0174350CE22D498C884250BD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/CMakeLists.txt */; };
+		6178761420804FDFB343FD09 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.hpp */ = {isa = PBXBuildFile; fileRef = 12E7A5802DEE4BB4BF93A245 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.hpp */; };
+		6685E7AD5FB347E8A23995B3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ECE9AC7F00AC442C9281BB81 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/CMakeLists.txt */; };
+		71827768AC2E48D7B3B8E895 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.hpp */ = {isa = PBXBuildFile; fileRef = E90F71689D5E4A269808EF0D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.hpp */; };
+		73BEE097459943B19AB19A5D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 1B87BA01D0684DE0A06A7228 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.cpp */; };
+		7565F757C67A4DB7ABD9A899 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.hpp */ = {isa = PBXBuildFile; fileRef = F1F541E5E1E9453CAA972199 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.hpp */; };
+		76DD239BA86045B38F8D947F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 32B82FE33D654D37AE1AC498 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/mocs_compilation.cpp */; };
+		775E3806634847089FAFB160 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.hpp */ = {isa = PBXBuildFile; fileRef = 1E1D5405D7AE4966BCDB345D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.hpp */; };
+		7AABFA340ABB44D99884D116 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/wrltest.cpp */ = {isa = PBXBuildFile; fileRef = B320D431539F4B158D2F0666 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/wrltest.cpp */; };
+		7DC335D9BECF4479B8B7768B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.hpp */ = {isa = PBXBuildFile; fileRef = 5BD02785B50948118E14D839 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.hpp */; };
+		80CBFF61DB3B4D44AFC4F00C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.hpp */ = {isa = PBXBuildFile; fileRef = 38CF2C983CD144C3A7E926B5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.hpp */; };
+		82DBE29BD6CA4475A9D30A06 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.hpp */ = {isa = PBXBuildFile; fileRef = 1126D684CEE84562A0A3AE4B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.hpp */; };
+		8556F9A007484A5EBD4D0F07 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.cpp */ = {isa = PBXBuildFile; fileRef = FC263AA1ED3740E1B3CB8DBA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.cpp */; };
+		8603DF9EDF1F44378B1CB4CD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.hpp */ = {isa = PBXBuildFile; fileRef = 9F346D5D57DE4AC3BD85EDA1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.hpp */; };
+		875F1CDACFD545E49A1B06D3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = D772CC7706F645B48FAE9154 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/mocs_compilation.cpp */; };
+		95C85F168B0743A19DDBEB2C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.cpp */ = {isa = PBXBuildFile; fileRef = 63FC3D531E8744D4886F5D45 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.cpp */; };
+		9C5BFB00962D4BF4B31BFFE5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.cpp */ = {isa = PBXBuildFile; fileRef = 2F952301E9144A9DAF36F778 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.cpp */; };
+		9EE8A3E589C34925A1C7AB7D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.cpp */ = {isa = PBXBuildFile; fileRef = F2CB20B8FBF74E149B983C7B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.cpp */; };
+		A11DED410A9A4B7380888179 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.cpp */ = {isa = PBXBuildFile; fileRef = EF3A90955FB84C4EB0977B79 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.cpp */; };
+		A64CB30DC32149C2BB24D820 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.cpp */ = {isa = PBXBuildFile; fileRef = 6C06174936EE437F9B2F0D21 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.cpp */; };
+		AE0B0EEB29F74451AAFA7166 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = EB661BE6B3684C568DA90CED /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/mocs_compilation.cpp */; };
+		BEF69C0D45E241349016EF82 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.cpp */ = {isa = PBXBuildFile; fileRef = 36A105D15AFA4F3D8E056394 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.cpp */; };
+		C0149044BAD140049ED63988 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.cpp */ = {isa = PBXBuildFile; fileRef = 70BC6517B5F845929B4F9813 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.cpp */; };
+		CCF4F4DAC01D4B2A8C9B5D50 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.hpp */ = {isa = PBXBuildFile; fileRef = 617ED8C1C1CD41B087227FB6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.hpp */; };
+		CD5D47D18F214CB4B220DA37 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B85E2A6B6FB48679D9FADFB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/CMakeLists.txt */; };
+		CEBA8FEEFABC498C9EB28FE3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.cpp */ = {isa = PBXBuildFile; fileRef = 352AADED5740467DA2C3E614 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.cpp */; };
+		CF1F3661608345E39C1E3C13 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.hpp */ = {isa = PBXBuildFile; fileRef = 0390B1C0C4D04F83BB0A9DA2 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.hpp */; };
+		D2C222E170BE4827B17BC300 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.hpp */ = {isa = PBXBuildFile; fileRef = 0A53672A21B84F87A2A85E9A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.hpp */; };
+		D5ED7A44098D4B9897768415 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.cpp */ = {isa = PBXBuildFile; fileRef = A3564F1A830A42FBA2D730EB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.cpp */; };
+		D623499F6D5940CBAEE8C6B0 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 32E69DA90F6E4756BAC5A9CC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist */; };
+		DF6BB67E4A3848C4985C6B96 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.cpp */ = {isa = PBXBuildFile; fileRef = 54F0FE4557E94C80A1F2796C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.cpp */; };
+		E260134BB93C42FEA90F4138 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.hpp */ = {isa = PBXBuildFile; fileRef = 5AFB561208AF4D91B39E4A2A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.hpp */; };
+		E33EBAC644AC42B7974EDDD7 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.cpp */ = {isa = PBXBuildFile; fileRef = C30E70E3A7794E2BAEFDB69C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.cpp */; };
+		E468BE9CDC47481F8B17E606 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.cpp */ = {isa = PBXBuildFile; fileRef = E452E3CB7DF14292944DFDF9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.cpp */; };
+		E623EE4222674206B678B108 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.hpp */ = {isa = PBXBuildFile; fileRef = 309DDDA99FFC43FFA8040893 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.hpp */; };
+		E6EE3B5E22484E788FA07341 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.cpp */ = {isa = PBXBuildFile; fileRef = F8DBB166EFE144FF9EA30F7B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.cpp */; };
+		E996451DAA6D4D26877090E8 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.hpp */ = {isa = PBXBuildFile; fileRef = 079D48FF4315444AA7668CBC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.hpp */; };
+		F186940B10B74F53AC0CA675 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.hpp */ = {isa = PBXBuildFile; fileRef = F216845F5256497B9FA88EDF /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.hpp */; };
+		F649E927B18C491EAAE0B3C4 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.hpp */ = {isa = PBXBuildFile; fileRef = 6DA3CC2F845145D097249725 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.hpp */; };
+		F8026BF065D942D78BD13FA2 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.hpp */ = {isa = PBXBuildFile; fileRef = 2D28A798306E4DE38A84ACE6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.hpp */; };
+		FBD310BBA0C64086B4B0764D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.cpp */ = {isa = PBXBuildFile; fileRef = 8651961BF74143D281E282B3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.cpp */; };
+		FFA27FFE8F6A49AB8B291D08 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.hpp */ = {isa = PBXBuildFile; fileRef = 074B0082CE6247F4A9C2AC0F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C37F3ED58814459AF5A7792 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A0F026A9D4DC4063A96874E9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		CC895C5E25BA440B868DDE39 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D52F4F84C1C44CD88571CA98 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08EEF29E549F45A4AEB5F5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF947024EBD94117AA19F740;
+			remoteInfo = WrlViewer1;
+		};
+		0D9B8916C0114D5AB9F937C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ECD67634641BB9B0C89D5;
+			remoteInfo = io;
+		};
+		0E0BA56145704FAAB894A928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ECD67634641BB9B0C89D5;
+			remoteInfo = io;
+		};
+		22EAC66DC57F4711B33C8D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47597BC58FC04419808F0907;
+			remoteInfo = wrl;
+		};
+		25643D700470411B870F8888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47597BC58FC04419808F0907;
+			remoteInfo = wrl;
+		};
+		3FC3F989BD3A4AB6AD457049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231B80ED81344CED8B1E8A0C;
+			remoteInfo = WrlViewer1_autogen;
+		};
+		6CB13A0C9DC1419B830A9F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47597BC58FC04419808F0907;
+			remoteInfo = wrl;
+		};
+		9B5685F9DA4E4B9D9F870458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C64D0B46CEF495E9F009EB7;
+			remoteInfo = util;
+		};
+		9EC00FDF3E73447DAAFE051F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F41CAD20644320B7D09973;
+			remoteInfo = wrl_autogen;
+		};
+		AB81EABB6F73406AB2EB6B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 704344209AD84BDB9D47B415;
+			remoteInfo = ZERO_CHECK;
+		};
+		ADF5D970A6514A8CA100BD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C64D0B46CEF495E9F009EB7;
+			remoteInfo = util;
+		};
+		B74C1D990DA543FBA5F58353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47597BC58FC04419808F0907;
+			remoteInfo = wrl;
+		};
+		B9F7C76BE92B4107A749448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ECD67634641BB9B0C89D5;
+			remoteInfo = io;
+		};
+		BBDA9B0C58E049668A5703E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C64D0B46CEF495E9F009EB7;
+			remoteInfo = util;
+		};
+		C07221C9E606421FB9F67B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98938B5FDD8F44B9A4749171;
+			remoteInfo = util_autogen;
+		};
+		C285A8723D714043B57FD68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD23C3BAA99B40028147A6AF;
+			remoteInfo = ALL_BUILD;
+		};
+		CF1096E3A2464BC8822E8167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83E766A9380437F9EFBF10B;
+			remoteInfo = wrltest_autogen;
+		};
+		D0F68CBDD14644B8A213C2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ECD67634641BB9B0C89D5;
+			remoteInfo = io;
+		};
+		D16C43CC353C4700B1FF1FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFDD86C9B0E45E495F5B78E;
+			remoteInfo = io_autogen;
+		};
+		D2BD737C7F6C447484537325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47597BC58FC04419808F0907;
+			remoteInfo = wrl;
+		};
+		D53F3D1F05F74AA7A29C9340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C64D0B46CEF495E9F009EB7;
+			remoteInfo = util;
+		};
+		EB49C4B07C714B6DACA0099A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827D472CB44D4F929F2A0D0A;
+			remoteInfo = wrltest;
+		};
+		ED10EE717C9E4344AF7ADAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C64D0B46CEF495E9F009EB7;
+			remoteInfo = util;
+		};
+		F1C965A3A7BC417CA1F9B555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E2F38081BBC467BA5A10C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ECD67634641BB9B0C89D5;
+			remoteInfo = io;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0174350CE22D498C884250BD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = viewer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0176C2AFD653424FBD1ACFB1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0390B1C0C4D04F83BB0A9DA2 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = StaticRotation.hpp; path = util/StaticRotation.hpp; sourceTree = SOURCE_ROOT; };
+		074B0082CE6247F4A9C2AC0F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlQtLogo.hpp; path = viewer/WrlQtLogo.hpp; sourceTree = SOURCE_ROOT; };
+		079D48FF4315444AA7668CBC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Appearance.hpp; path = wrl/Appearance.hpp; sourceTree = SOURCE_ROOT; };
+		09DB3EAE627B4C859E77EADE /* util */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libutil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A53672A21B84F87A2A85E9A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AppLoader.hpp; path = io/AppLoader.hpp; sourceTree = SOURCE_ROOT; };
+		0CDA20C11511470AB90654E9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppLoader.cpp; path = io/AppLoader.cpp; sourceTree = SOURCE_ROOT; };
+		1126D684CEE84562A0A3AE4B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Material.hpp; path = wrl/Material.hpp; sourceTree = SOURCE_ROOT; };
+		12E7A5802DEE4BB4BF93A245 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IndexedFaceSet.hpp; path = wrl/IndexedFaceSet.hpp; sourceTree = SOURCE_ROOT; };
+		1B87BA01D0684DE0A06A7228 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlGLBuffer.cpp; path = viewer/WrlGLBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		1E1D5405D7AE4966BCDB345D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shape.hpp; path = wrl/Shape.hpp; sourceTree = SOURCE_ROOT; };
+		29F6563AA277403D8209E967 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/StrException.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = StrException.hpp; path = io/StrException.hpp; sourceTree = SOURCE_ROOT; };
+		2D28A798306E4DE38A84ACE6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SceneGraphTraversal.hpp; path = wrl/SceneGraphTraversal.hpp; sourceTree = SOURCE_ROOT; };
+		2F952301E9144A9DAF36F778 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StaticRotation.cpp; path = util/StaticRotation.cpp; sourceTree = SOURCE_ROOT; };
+		309DDDA99FFC43FFA8040893 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlToolsWidget.hpp; path = viewer/WrlToolsWidget.hpp; sourceTree = SOURCE_ROOT; };
+		32B82FE33D654D37AE1AC498 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../build/wrl/wrl_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		32E69DA90F6E4756BAC5A9CC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		342E11B3AE5C45B8811345A5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlGLHandles.hpp; path = viewer/WrlGLHandles.hpp; sourceTree = SOURCE_ROOT; };
+		352AADED5740467DA2C3E614 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Appearance.cpp; path = wrl/Appearance.cpp; sourceTree = SOURCE_ROOT; };
+		36A105D15AFA4F3D8E056394 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LoaderWrl.cpp; path = io/LoaderWrl.cpp; sourceTree = SOURCE_ROOT; };
+		37B6669B95F348D1994A80E4 /* WrlViewer1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = WrlViewer1; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CF2C983CD144C3A7E926B5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Rotation.hpp; path = wrl/Rotation.hpp; sourceTree = SOURCE_ROOT; };
+		3C3FEBBCD28F4DD38A2B4D2A /* wrltest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = wrltest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD3816D10474BA1B23B66D1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tokenizer.cpp; path = io/Tokenizer.cpp; sourceTree = SOURCE_ROOT; };
+		441373E6FE3E40F9A3129C99 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = BBox.hpp; path = util/BBox.hpp; sourceTree = SOURCE_ROOT; };
+		4B304CBC52264C1BBCB3712F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BBox.cpp; path = util/BBox.cpp; sourceTree = SOURCE_ROOT; };
+		4C0D3C02F15E4EED87511023 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlViewerApp.cpp; path = viewer/WrlViewerApp.cpp; sourceTree = SOURCE_ROOT; };
+		4E262B3E7024490C8A7BB242 /* io */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE2C128CDBD429DB3316C4B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Group.hpp; path = wrl/Group.hpp; sourceTree = SOURCE_ROOT; };
+		54F0FE4557E94C80A1F2796C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlQtLogo.cpp; path = viewer/WrlQtLogo.cpp; sourceTree = SOURCE_ROOT; };
+		5AFB561208AF4D91B39E4A2A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Tokenizer.hpp; path = io/Tokenizer.hpp; sourceTree = SOURCE_ROOT; };
+		5BD02785B50948118E14D839 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Transform.hpp; path = wrl/Transform.hpp; sourceTree = SOURCE_ROOT; };
+		5C936EA864824554ABEC14E4 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Node.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Node.hpp; path = wrl/Node.hpp; sourceTree = SOURCE_ROOT; };
+		617ED8C1C1CD41B087227FB6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AppSaver.hpp; path = io/AppSaver.hpp; sourceTree = SOURCE_ROOT; };
+		63045677AC30459E99021DCE /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = wrl/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		63FC3D531E8744D4886F5D45 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlAboutDialog.cpp; path = viewer/WrlAboutDialog.cpp; sourceTree = SOURCE_ROOT; };
+		642D20F2EBAA458FA8248395 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlViewerData.cpp; path = viewer/WrlViewerData.cpp; sourceTree = SOURCE_ROOT; };
+		6ACACBA69CA14896B7DCE9DD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlMainWindow.cpp; path = viewer/WrlMainWindow.cpp; sourceTree = SOURCE_ROOT; };
+		6C06174936EE437F9B2F0D21 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelTexture.cpp; path = wrl/PixelTexture.cpp; sourceTree = SOURCE_ROOT; };
+		6D6826C50E7D41C39C2F4152 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlGLBuffer.hpp; path = viewer/WrlGLBuffer.hpp; sourceTree = SOURCE_ROOT; };
+		6DA3CC2F845145D097249725 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SaverWrl.hpp; path = io/SaverWrl.hpp; sourceTree = SOURCE_ROOT; };
+		70BC6517B5F845929B4F9813 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SaverWrl.cpp; path = io/SaverWrl.cpp; sourceTree = SOURCE_ROOT; };
+		7C5983116F5A4D9D932E8769 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlViewerData.hpp; path = viewer/WrlViewerData.hpp; sourceTree = SOURCE_ROOT; };
+		81A87303C6354CEDBB63D163 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImageTexture.cpp; path = wrl/ImageTexture.cpp; sourceTree = SOURCE_ROOT; };
+		85EF8402F8D54D638CA43EA5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8651961BF74143D281E282B3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneGraphTraversal.cpp; path = wrl/SceneGraphTraversal.cpp; sourceTree = SOURCE_ROOT; };
+		8A3F2C06B5A1464FB2863A5F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppSaver.cpp; path = io/AppSaver.cpp; sourceTree = SOURCE_ROOT; };
+		8C25059A7B7942F6802A925B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F1F5EF9775441959004870A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = io/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9B85E2A6B6FB48679D9FADFB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C9A2499AA0D4E0E9F72C84E /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlMainWindow.hpp; path = viewer/WrlMainWindow.hpp; sourceTree = SOURCE_ROOT; };
+		9F346D5D57DE4AC3BD85EDA1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SceneGraph.hpp; path = wrl/SceneGraph.hpp; sourceTree = SOURCE_ROOT; };
+		9FB6A3BCD989404E820920AA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/assets/WrlViewer.icns */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = WrlViewer.icns; path = ../assets/WrlViewer.icns; sourceTree = SOURCE_ROOT; };
+		A1CEBE3B0BBB44F9A7B80941 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A1ECA8095D90411E8A852656 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Material.cpp; path = wrl/Material.cpp; sourceTree = SOURCE_ROOT; };
+		A3564F1A830A42FBA2D730EB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlGLWidget.cpp; path = viewer/WrlGLWidget.cpp; sourceTree = SOURCE_ROOT; };
+		A66F0E01C6254D8FA6134251 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlGLShader.hpp; path = viewer/WrlGLShader.hpp; sourceTree = SOURCE_ROOT; };
+		A6867AD7DA164DAA81620F24 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = LoaderWrl.hpp; path = io/LoaderWrl.hpp; sourceTree = SOURCE_ROOT; };
+		ADDCB05FD908490CBBA90D8A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../build/io/io_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		B320D431539F4B158D2F0666 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/wrltest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wrltest.cpp; path = test/wrltest.cpp; sourceTree = SOURCE_ROOT; };
+		C30E70E3A7794E2BAEFDB69C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlGLHandles.cpp; path = viewer/WrlGLHandles.cpp; sourceTree = SOURCE_ROOT; };
+		C99D443719C1476792C233CB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Loader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Loader.hpp; path = io/Loader.hpp; sourceTree = SOURCE_ROOT; };
+		CC6296D9B97947B5B517E557 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlGLShader.cpp; path = viewer/WrlGLShader.cpp; sourceTree = SOURCE_ROOT; };
+		CE69447FD15B4B6CA02D5EA3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = io/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D772CC7706F645B48FAE9154 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../build/test/wrltest_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		DED22731ABC648689112B678 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PixelTexture.hpp; path = wrl/PixelTexture.hpp; sourceTree = SOURCE_ROOT; };
+		E05E153539D1446E94589338 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Rotation.cpp; path = wrl/Rotation.cpp; sourceTree = SOURCE_ROOT; };
+		E3F70A580493405C9BA512FC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = viewer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E452E3CB7DF14292944DFDF9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IndexedFaceSet.cpp; path = wrl/IndexedFaceSet.cpp; sourceTree = SOURCE_ROOT; };
+		E90F71689D5E4A269808EF0D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ImageTexture.hpp; path = wrl/ImageTexture.hpp; sourceTree = SOURCE_ROOT; };
+		EB661BE6B3684C568DA90CED /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../build/util/util_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		EC2CB319FC904470AFC2E57C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = util/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ECE9AC7F00AC442C9281BB81 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = wrl/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EF3A90955FB84C4EB0977B79 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WrlToolsWidget.cpp; path = viewer/WrlToolsWidget.cpp; sourceTree = SOURCE_ROOT; };
+		F1F541E5E1E9453CAA972199 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlGLWidget.hpp; path = viewer/WrlGLWidget.hpp; sourceTree = SOURCE_ROOT; };
+		F216845F5256497B9FA88EDF /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WrlAboutDialog.hpp; path = viewer/WrlAboutDialog.hpp; sourceTree = SOURCE_ROOT; };
+		F2BF0BCC892F43A4BDDE1824 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../build/viewer/WrlViewer1_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		F2CB20B8FBF74E149B983C7B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SceneGraph.cpp; path = wrl/SceneGraph.cpp; sourceTree = SOURCE_ROOT; };
+		F86DBB5C25E34456876B6CFA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = wrl/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F8DBB166EFE144FF9EA30F7B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Transform.cpp; path = wrl/Transform.cpp; sourceTree = SOURCE_ROOT; };
+		FC263AA1ED3740E1B3CB8DBA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Group.cpp; path = wrl/Group.cpp; sourceTree = SOURCE_ROOT; };
+		FF92C6C9D21E4D7697314868 /* wrl */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libwrl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1EA77EBEB7774D9A922A7714 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF0BCC892F43A4BDDE1824 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/mocs_compilation.cpp */,
+				63FC3D531E8744D4886F5D45 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.cpp */,
+				1B87BA01D0684DE0A06A7228 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.cpp */,
+				C30E70E3A7794E2BAEFDB69C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.cpp */,
+				CC6296D9B97947B5B517E557 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.cpp */,
+				A3564F1A830A42FBA2D730EB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.cpp */,
+				6ACACBA69CA14896B7DCE9DD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.cpp */,
+				54F0FE4557E94C80A1F2796C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.cpp */,
+				EF3A90955FB84C4EB0977B79 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.cpp */,
+				4C0D3C02F15E4EED87511023 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerApp.cpp */,
+				642D20F2EBAA458FA8248395 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2117EE676A4A48C89A00F22C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F216845F5256497B9FA88EDF /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.hpp */,
+				6D6826C50E7D41C39C2F4152 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.hpp */,
+				342E11B3AE5C45B8811345A5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.hpp */,
+				A66F0E01C6254D8FA6134251 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.hpp */,
+				F1F541E5E1E9453CAA972199 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.hpp */,
+				9C9A2499AA0D4E0E9F72C84E /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.hpp */,
+				074B0082CE6247F4A9C2AC0F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.hpp */,
+				309DDDA99FFC43FFA8040893 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.hpp */,
+				7C5983116F5A4D9D932E8769 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		29A90C108B784A75A3967847 /* io_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				E3C110A121D74A30BD40B797 /* CMake Rules */,
+				8F1F5EF9775441959004870A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/CMakeLists.txt */,
+			);
+			name = io_autogen;
+			sourceTree = "<group>";
+		};
+		3004A7A477BE4ED2B2A03C50 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		31E0ECA6084540019B17D432 = {
+			isa = PBXGroup;
+			children = (
+				F216F19C21514BD09125C0AA /* ALL_BUILD */,
+				5EB88656BA744FDBBC07D0C1 /* ZERO_CHECK */,
+				3F5BDF30F65447FE9B45BCBB /* io */,
+				29A90C108B784A75A3967847 /* io_autogen */,
+				DECE091962A64245B14ECA3E /* util */,
+				4DC6A237F1444EFB8E7E8888 /* util_autogen */,
+				86F2350D6ECE4E25BF238D63 /* wrl */,
+				8177B2501E624D9CB34A7229 /* wrl_autogen */,
+				BB8974D00DAC46BC83676FC4 /* wrltest */,
+				A09C18D6F2C94CB98C9FBDCD /* wrltest_autogen */,
+				C040D8CCB7B44F1B8D38F241 /* WrlViewer1 */,
+				66D2B8106D5345B8AC20FBF1 /* WrlViewer1_autogen */,
+				4A03E1DAC70B4B3A82767AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5BDF30F65447FE9B45BCBB /* io */ = {
+			isa = PBXGroup;
+			children = (
+				BC931A3B110C4A3CA5071636 /* Header Files */,
+				D473D977242441FCABF65F70 /* Source Files */,
+				CE69447FD15B4B6CA02D5EA3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/CMakeLists.txt */,
+			);
+			name = io;
+			sourceTree = "<group>";
+		};
+		43C58DAF15634C88AD325232 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				441373E6FE3E40F9A3129C99 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.hpp */,
+				0390B1C0C4D04F83BB0A9DA2 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4A03E1DAC70B4B3A82767AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E262B3E7024490C8A7BB242 /* io */,
+				09DB3EAE627B4C859E77EADE /* util */,
+				FF92C6C9D21E4D7697314868 /* wrl */,
+				3C3FEBBCD28F4DD38A2B4D2A /* wrltest */,
+				37B6669B95F348D1994A80E4 /* WrlViewer1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD09CF2FF1847419CF2A3B0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BE6B3684C568DA90CED /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/mocs_compilation.cpp */,
+				4B304CBC52264C1BBCB3712F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.cpp */,
+				2F952301E9144A9DAF36F778 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4D6EC69E2DDB4315B1F1F852 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				079D48FF4315444AA7668CBC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.hpp */,
+				4FE2C128CDBD429DB3316C4B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.hpp */,
+				E90F71689D5E4A269808EF0D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.hpp */,
+				12E7A5802DEE4BB4BF93A245 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.hpp */,
+				1126D684CEE84562A0A3AE4B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.hpp */,
+				5C936EA864824554ABEC14E4 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Node.hpp */,
+				DED22731ABC648689112B678 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.hpp */,
+				38CF2C983CD144C3A7E926B5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.hpp */,
+				9F346D5D57DE4AC3BD85EDA1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.hpp */,
+				2D28A798306E4DE38A84ACE6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.hpp */,
+				1E1D5405D7AE4966BCDB345D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.hpp */,
+				5BD02785B50948118E14D839 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4DC6A237F1444EFB8E7E8888 /* util_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				3004A7A477BE4ED2B2A03C50 /* CMake Rules */,
+				EC2CB319FC904470AFC2E57C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/CMakeLists.txt */,
+			);
+			name = util_autogen;
+			sourceTree = "<group>";
+		};
+		5328081E9C8141D9840EB77C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32E69DA90F6E4756BAC5A9CC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5EB88656BA744FDBBC07D0C1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				763112B539AD44CCA3AF3531 /* CMake Rules */,
+				0176C2AFD653424FBD1ACFB1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		66D2B8106D5345B8AC20FBF1 /* WrlViewer1_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				D97FEEC962A549B8B68059BB /* CMake Rules */,
+				E3F70A580493405C9BA512FC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/CMakeLists.txt */,
+			);
+			name = WrlViewer1_autogen;
+			sourceTree = "<group>";
+		};
+		763112B539AD44CCA3AF3531 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8177B2501E624D9CB34A7229 /* wrl_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				8D2CB2C4D88F4AA3BCB9ACEB /* CMake Rules */,
+				F86DBB5C25E34456876B6CFA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/CMakeLists.txt */,
+			);
+			name = wrl_autogen;
+			sourceTree = "<group>";
+		};
+		86F2350D6ECE4E25BF238D63 /* wrl */ = {
+			isa = PBXGroup;
+			children = (
+				4D6EC69E2DDB4315B1F1F852 /* Header Files */,
+				BA18F510E1A6470AA334228E /* Source Files */,
+				ECE9AC7F00AC442C9281BB81 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/CMakeLists.txt */,
+			);
+			name = wrl;
+			sourceTree = "<group>";
+		};
+		8D2CB2C4D88F4AA3BCB9ACEB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A09C18D6F2C94CB98C9FBDCD /* wrltest_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				FA177CEDA1924E77AD0793F7 /* CMake Rules */,
+				85EF8402F8D54D638CA43EA5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/CMakeLists.txt */,
+			);
+			name = wrltest_autogen;
+			sourceTree = "<group>";
+		};
+		A3FF4CD7980345F890211DDB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AA442791DDF84F33A90A929C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D772CC7706F645B48FAE9154 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/mocs_compilation.cpp */,
+				B320D431539F4B158D2F0666 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/wrltest.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BA18F510E1A6470AA334228E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B82FE33D654D37AE1AC498 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/mocs_compilation.cpp */,
+				352AADED5740467DA2C3E614 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.cpp */,
+				FC263AA1ED3740E1B3CB8DBA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.cpp */,
+				81A87303C6354CEDBB63D163 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.cpp */,
+				E452E3CB7DF14292944DFDF9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.cpp */,
+				A1ECA8095D90411E8A852656 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.cpp */,
+				6C06174936EE437F9B2F0D21 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.cpp */,
+				E05E153539D1446E94589338 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.cpp */,
+				F2CB20B8FBF74E149B983C7B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.cpp */,
+				8651961BF74143D281E282B3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.cpp */,
+				63045677AC30459E99021DCE /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.cpp */,
+				F8DBB166EFE144FF9EA30F7B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BB8974D00DAC46BC83676FC4 /* wrltest */ = {
+			isa = PBXGroup;
+			children = (
+				AA442791DDF84F33A90A929C /* Source Files */,
+				A1CEBE3B0BBB44F9A7B80941 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/CMakeLists.txt */,
+			);
+			name = wrltest;
+			sourceTree = "<group>";
+		};
+		BC931A3B110C4A3CA5071636 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A53672A21B84F87A2A85E9A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.hpp */,
+				617ED8C1C1CD41B087227FB6 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.hpp */,
+				C99D443719C1476792C233CB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Loader.hpp */,
+				A6867AD7DA164DAA81620F24 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.hpp */,
+				6DA3CC2F845145D097249725 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.hpp */,
+				29F6563AA277403D8209E967 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/StrException.hpp */,
+				5AFB561208AF4D91B39E4A2A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C040D8CCB7B44F1B8D38F241 /* WrlViewer1 */ = {
+			isa = PBXGroup;
+			children = (
+				2117EE676A4A48C89A00F22C /* Header Files */,
+				1EA77EBEB7774D9A922A7714 /* Source Files */,
+				5328081E9C8141D9840EB77C /* Resources */,
+				9FB6A3BCD989404E820920AA /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/assets/WrlViewer.icns */,
+				0174350CE22D498C884250BD /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/CMakeLists.txt */,
+			);
+			name = WrlViewer1;
+			sourceTree = "<group>";
+		};
+		D473D977242441FCABF65F70 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDCB05FD908490CBBA90D8A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/mocs_compilation.cpp */,
+				0CDA20C11511470AB90654E9 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.cpp */,
+				8A3F2C06B5A1464FB2863A5F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.cpp */,
+				36A105D15AFA4F3D8E056394 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.cpp */,
+				70BC6517B5F845929B4F9813 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.cpp */,
+				3CD3816D10474BA1B23B66D1 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D97FEEC962A549B8B68059BB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DECE091962A64245B14ECA3E /* util */ = {
+			isa = PBXGroup;
+			children = (
+				43C58DAF15634C88AD325232 /* Header Files */,
+				4CD09CF2FF1847419CF2A3B0 /* Source Files */,
+				9B85E2A6B6FB48679D9FADFB /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/CMakeLists.txt */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		E3C110A121D74A30BD40B797 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F216F19C21514BD09125C0AA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A3FF4CD7980345F890211DDB /* CMake Rules */,
+				8C25059A7B7942F6802A925B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FA177CEDA1924E77AD0793F7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C64D0B46CEF495E9F009EB7 /* util */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89532457839F4BE1B83723FC /* Build configuration list for PBXNativeTarget "util" */;
+			buildPhases = (
+				89A254B3BCFA4363994B8507 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C1A0D7099F40818FD591A9 /* PBXTargetDependency */,
+			);
+			name = util;
+			productName = util;
+			productReference = 09DB3EAE627B4C859E77EADE /* util */;
+			productType = "com.apple.product-type.library.static";
+		};
+		162ECD67634641BB9B0C89D5 /* io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AA6A5C1CF24D8F8585F74D /* Build configuration list for PBXNativeTarget "io" */;
+			buildPhases = (
+				4017217F4D6B4A15BA254430 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93E7BC39365413B9D135109 /* PBXTargetDependency */,
+			);
+			name = io;
+			productName = io;
+			productReference = 4E262B3E7024490C8A7BB242 /* io */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47597BC58FC04419808F0907 /* wrl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0596D5FD69ED4E77B0EB8B38 /* Build configuration list for PBXNativeTarget "wrl" */;
+			buildPhases = (
+				F25877E4FE0B4A42AC31AAF1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B863394D41D24942BEFD511C /* PBXTargetDependency */,
+			);
+			name = wrl;
+			productName = wrl;
+			productReference = FF92C6C9D21E4D7697314868 /* wrl */;
+			productType = "com.apple.product-type.library.static";
+		};
+		827D472CB44D4F929F2A0D0A /* wrltest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0918133D02084D439276A4B6 /* Build configuration list for PBXNativeTarget "wrltest" */;
+			buildPhases = (
+				6803FE66360C4026AD9ABF5C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				055F42613DF24EC38268A4BD /* PBXTargetDependency */,
+				8101DE734E7B4ACAAF78807D /* PBXTargetDependency */,
+				A274D0CF21334BD8950FB4C9 /* PBXTargetDependency */,
+				7222DC443FC2425CB4E3BB84 /* PBXTargetDependency */,
+			);
+			name = wrltest;
+			productName = wrltest;
+			productReference = 3C3FEBBCD28F4DD38A2B4D2A /* wrltest */;
+			productType = "com.apple.product-type.tool";
+		};
+		BF947024EBD94117AA19F740 /* WrlViewer1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8730072AF8A448FAB7B53F61 /* Build configuration list for PBXNativeTarget "WrlViewer1" */;
+			buildPhases = (
+				93CD0636B5D4434383AF9968 /* Resources */,
+				D3198876939E4149A7C39699 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884D15017AAF41A3A9E4699E /* PBXTargetDependency */,
+				115D02F4F5BF40EE8DC55A8F /* PBXTargetDependency */,
+				D7EA05E1783D4F0EA693A76D /* PBXTargetDependency */,
+				E483EE3F52FC4D848BBD06DF /* PBXTargetDependency */,
+			);
+			name = WrlViewer1;
+			productName = WrlViewer1;
+			productReference = 37B6669B95F348D1994A80E4 /* WrlViewer1 */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E2F38081BBC467BA5A10C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 6C17B8D8919241D2B603E5F9 /* Build configuration list for PBXProject "vrmlViewer1" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0C37F3ED58814459AF5A7792 /* Debug */,
+				CC895C5E25BA440B868DDE39 /* Release */,
+				D52F4F84C1C44CD88571CA98 /* MinSizeRel */,
+				A0F026A9D4DC4063A96874E9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 31E0ECA6084540019B17D432;
+			projectDirPath = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src";
+			projectRoot = "";
+			targets = (
+				DD23C3BAA99B40028147A6AF /* ALL_BUILD */,
+				704344209AD84BDB9D47B415 /* ZERO_CHECK */,
+				948033CB61BD4380B0D78EF3 /* install */,
+				162ECD67634641BB9B0C89D5 /* io */,
+				EDFDD86C9B0E45E495F5B78E /* io_autogen */,
+				0C64D0B46CEF495E9F009EB7 /* util */,
+				98938B5FDD8F44B9A4749171 /* util_autogen */,
+				47597BC58FC04419808F0907 /* wrl */,
+				62F41CAD20644320B7D09973 /* wrl_autogen */,
+				827D472CB44D4F929F2A0D0A /* wrltest */,
+				C83E766A9380437F9EFBF10B /* wrltest_autogen */,
+				BF947024EBD94117AA19F740 /* WrlViewer1 */,
+				231B80ED81344CED8B1E8A0C /* WrlViewer1_autogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E247C94D80049E7902C9B3A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		16D70E3ABAD0423F88CD5F3B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1C8C507100C84F6799C11D4E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeScripts/WrlViewer1_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		227BDA79524D474DBE4B2980 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		24C9ABCF64CE470B94BD6C92 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4C3170A9E1574AA29A38FC2E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5E559F05FB044683B1D264AC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5F6797D6A9854054B495191D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6E9F82631FA3402FA2F0E778 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/CMakeScripts/wrltest_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8EAD256E06464F669336691A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/CMakeScripts/io_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		991464E94DBE447283B1A7D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		99506D152BCB4E3CA8150D3B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9CFDB028DE0A4C6997266085 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/CMakeScripts/util_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CCD02ACE24B240E19C8D7947 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/CMakeScripts/wrl_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CF1D51DB8F3F44D88F89E213 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EC1F65CFB4B94BD09A048CE8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build -f /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CD0636B5D4434383AF9968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF303CD03AE45DF9260244B /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/assets/WrlViewer.icns */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4017217F4D6B4A15BA254430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3BC4AC064C48908603C69A /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/mocs_compilation.cpp */,
+				00F118066176482FB82B6DBE /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.cpp */,
+				55154DB28262422686551A0C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.cpp */,
+				BEF69C0D45E241349016EF82 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/LoaderWrl.cpp */,
+				C0149044BAD140049ED63988 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/SaverWrl.cpp */,
+				16A81AE58C1E459B847D8640 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Tokenizer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803FE66360C4026AD9ABF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875F1CDACFD545E49A1B06D3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/mocs_compilation.cpp */,
+				7AABFA340ABB44D99884D116 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test/wrltest.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A254B3BCFA4363994B8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0B0EEB29F74451AAFA7166 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/mocs_compilation.cpp */,
+				12034BEE6D9C4BDBAC1FEB69 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.cpp */,
+				9C5BFB00962D4BF4B31BFFE5 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/StaticRotation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198876939E4149A7C39699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386BAB9DC5514E80B9A96C4D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/mocs_compilation.cpp */,
+				95C85F168B0743A19DDBEB2C /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlAboutDialog.cpp */,
+				73BEE097459943B19AB19A5D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.cpp */,
+				E33EBAC644AC42B7974EDDD7 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.cpp */,
+				49D41B32C15E48EC99297FA3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.cpp */,
+				D5ED7A44098D4B9897768415 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLWidget.cpp */,
+				56892D72DC1A4F2DBA1E14B2 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlMainWindow.cpp */,
+				DF6BB67E4A3848C4985C6B96 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlQtLogo.cpp */,
+				A11DED410A9A4B7380888179 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.cpp */,
+				20C7AB1043134CCF95C8A401 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerApp.cpp */,
+				0602D25722614B718BF9C9BC /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25877E4FE0B4A42AC31AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DD239BA86045B38F8D947F /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/mocs_compilation.cpp */,
+				CEBA8FEEFABC498C9EB28FE3 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.cpp */,
+				8556F9A007484A5EBD4D0F07 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.cpp */,
+				439BCAA083474C10864CB057 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/ImageTexture.cpp */,
+				E468BE9CDC47481F8B17E606 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.cpp */,
+				09A98322CAB445248227DD59 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.cpp */,
+				A64CB30DC32149C2BB24D820 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/PixelTexture.cpp */,
+				4E6D76BCCEC14A6B89AE33D7 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.cpp */,
+				9EE8A3E589C34925A1C7AB7D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.cpp */,
+				FBD310BBA0C64086B4B0764D /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraphTraversal.cpp */,
+				470AF35412EF4197B81E7D82 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.cpp */,
+				E6EE3B5E22484E788FA07341 /* /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00069F5FAB8D4C7EA356EE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C64D0B46CEF495E9F009EB7 /* util */;
+			targetProxy = ADF5D970A6514A8CA100BD6F /* PBXContainerItemProxy */;
+		};
+		054C4177AD2F4E01A836D1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47597BC58FC04419808F0907 /* wrl */;
+			targetProxy = 25643D700470411B870F8888 /* PBXContainerItemProxy */;
+		};
+		055F42613DF24EC38268A4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ECD67634641BB9B0C89D5 /* io */;
+			targetProxy = D0F68CBDD14644B8A213C2DA /* PBXContainerItemProxy */;
+		};
+		115D02F4F5BF40EE8DC55A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231B80ED81344CED8B1E8A0C /* WrlViewer1_autogen */;
+			targetProxy = 3FC3F989BD3A4AB6AD457049 /* PBXContainerItemProxy */;
+		};
+		45720E29E1A14C96B38C40FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47597BC58FC04419808F0907 /* wrl */;
+			targetProxy = 6CB13A0C9DC1419B830A9F4D /* PBXContainerItemProxy */;
+		};
+		6BEB612870DC49D09460B983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47597BC58FC04419808F0907 /* wrl */;
+			targetProxy = B74C1D990DA543FBA5F58353 /* PBXContainerItemProxy */;
+		};
+		7222DC443FC2425CB4E3BB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47597BC58FC04419808F0907 /* wrl */;
+			targetProxy = 22EAC66DC57F4711B33C8D9D /* PBXContainerItemProxy */;
+		};
+		76B6B6C5AE244898BA0821A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF947024EBD94117AA19F740 /* WrlViewer1 */;
+			targetProxy = 08EEF29E549F45A4AEB5F5AF /* PBXContainerItemProxy */;
+		};
+		7CB1F081CC6A4D17A8BA9763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 704344209AD84BDB9D47B415 /* ZERO_CHECK */;
+			targetProxy = AB81EABB6F73406AB2EB6B6C /* PBXContainerItemProxy */;
+		};
+		8101DE734E7B4ACAAF78807D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C83E766A9380437F9EFBF10B /* wrltest_autogen */;
+			targetProxy = CF1096E3A2464BC8822E8167 /* PBXContainerItemProxy */;
+		};
+		884D15017AAF41A3A9E4699E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ECD67634641BB9B0C89D5 /* io */;
+			targetProxy = 0E0BA56145704FAAB894A928 /* PBXContainerItemProxy */;
+		};
+		939CEDA1DBBC41259603E893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C64D0B46CEF495E9F009EB7 /* util */;
+			targetProxy = D53F3D1F05F74AA7A29C9340 /* PBXContainerItemProxy */;
+		};
+		946C5CEB710C4D2C968A2A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 827D472CB44D4F929F2A0D0A /* wrltest */;
+			targetProxy = EB49C4B07C714B6DACA0099A /* PBXContainerItemProxy */;
+		};
+		A274D0CF21334BD8950FB4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C64D0B46CEF495E9F009EB7 /* util */;
+			targetProxy = BBDA9B0C58E049668A5703E9 /* PBXContainerItemProxy */;
+		};
+		A5C1A0D7099F40818FD591A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98938B5FDD8F44B9A4749171 /* util_autogen */;
+			targetProxy = C07221C9E606421FB9F67B70 /* PBXContainerItemProxy */;
+		};
+		B1307AD3B6654544B9AC02E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C64D0B46CEF495E9F009EB7 /* util */;
+			targetProxy = 9B5685F9DA4E4B9D9F870458 /* PBXContainerItemProxy */;
+		};
+		B863394D41D24942BEFD511C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F41CAD20644320B7D09973 /* wrl_autogen */;
+			targetProxy = 9EC00FDF3E73447DAAFE051F /* PBXContainerItemProxy */;
+		};
+		C7E99128A90E4DA8B96E034B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ECD67634641BB9B0C89D5 /* io */;
+			targetProxy = 0D9B8916C0114D5AB9F937C6 /* PBXContainerItemProxy */;
+		};
+		CA0C913FEE7540A28064C9E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ECD67634641BB9B0C89D5 /* io */;
+			targetProxy = B9F7C76BE92B4107A749448F /* PBXContainerItemProxy */;
+		};
+		D7EA05E1783D4F0EA693A76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C64D0B46CEF495E9F009EB7 /* util */;
+			targetProxy = ED10EE717C9E4344AF7ADAB0 /* PBXContainerItemProxy */;
+		};
+		E483EE3F52FC4D848BBD06DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47597BC58FC04419808F0907 /* wrl */;
+			targetProxy = D2BD737C7F6C447484537325 /* PBXContainerItemProxy */;
+		};
+		E7E01B0779714DA698B23E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ECD67634641BB9B0C89D5 /* io */;
+			targetProxy = F1C965A3A7BC417CA1F9B555 /* PBXContainerItemProxy */;
+		};
+		F35F52A53B124D74B7773BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD23C3BAA99B40028147A6AF /* ALL_BUILD */;
+			targetProxy = C285A8723D714043B57FD68A /* PBXContainerItemProxy */;
+		};
+		F93E7BC39365413B9D135109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFDD86C9B0E45E495F5B78E /* io_autogen */;
+			targetProxy = D16C43CC353C4700B1FF1FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0269A9B62E1E49449813CA89 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES,QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_SVG_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INFOPLIST_FILE = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/niko/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/QtSvg /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/RelWithDebInfo/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/RelWithDebInfo/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/RelWithDebInfo/libwrl.a /Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/niko/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0560F4A46A05472B825B7379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1251FD81C8094E9191ADA837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		159BE4765AC14629B1472FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		179DBDE7B99A4D96AB333DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/Debug/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/Debug/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/Debug/libwrl.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2317B2A9936D4B5499CC8330 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		241CF751884249B4BA7FC4C5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2AB09FE56ACC46BD844EC8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES,QT_CORE_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_SVG_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INFOPLIST_FILE = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/niko/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/QtSvg /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/Debug/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/Debug/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/Debug/libwrl.a /Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/niko/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2BE3AD478AEC4E70989CD456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2DE14AC4E23641EB9A23157C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2F9C8B28610B4A3484F2668E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/build";
+			};
+			name = Release;
+		};
+		3336223A007843E2A3A77727 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		335053AE94E4458185CF8847 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/build";
+			};
+			name = MinSizeRel;
+		};
+		3C634DECC72743859BA97919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		546132110CB842C188E76D69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5473DA4BC5E24A94A5B74197 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E2D2048074C4A8980B1A7BE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		64A45D6048F9425DB2A4C999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6942CC1F70A54570999D070E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6CED5413E08A4E9C84442360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6D1DA63D863143DD9CD45230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6E595D7999114A7195B8B522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		719ED574A6F64DCD9AD47EF9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A621DAF456F4B5E9C486D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7D18AAE96346459FB8CB63BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		847F383389C54670A419FB59 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		891FBD93E0B74FF7ABF55C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8B63A988200C410DB8A15656 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/MinSizeRel/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/MinSizeRel/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/MinSizeRel/libwrl.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8DD2B4AC47F34E189DBCF290 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8E57173670D645BDA741E770 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		913447316A0442F69686AD4A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES,QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_SVG_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INFOPLIST_FILE = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/niko/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/QtSvg /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/MinSizeRel/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/MinSizeRel/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/MinSizeRel/libwrl.a /Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/niko/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		91B3F2DD66DA429D91B4CE58 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		980EB04B45134650873FF3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A031C3EEC3DA401EB145C180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A1AD4260DA914A79A6692E5A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/RelWithDebInfo/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/RelWithDebInfo/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/RelWithDebInfo/libwrl.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB61E733630C488398ED6677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B27F67898A4B4D99B447AFCB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B8850D268FA14161AB5AA36A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA7DD3810F09481D827EDEC2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/util_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BBD1B524C2EC43629B7D5102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CA528EA296E04A37A8F23DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/wrl_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CC0DEC2F0FF942AFB9DC37C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC77EC18AE9C4E31988D5869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CE86421C460142BEB6FD2DE3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D2BB93C3AA754065B260DF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES,QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_SVG_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INFOPLIST_FILE = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/CMakeFiles/WrlViewer1.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/niko/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/QtSvg /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/Release/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/Release/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/Release/libwrl.a /Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/niko/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/niko/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/niko/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/niko/Qt/5.10.0/clang_64/lib/QtSvg.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DAED27FDEA934E6FB877A1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DC2DDF95150046A5B5CF18CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WrlViewer1_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E04487D49F35485B9DAA730B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E06F4D34963B44BDB9366AFE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrl_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E2BF15EDE6864656BAF84FC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = util_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E56C67D9E1FC46CF95A69212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test/wrltest_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/Release/libio.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/util/Release/libutil.a /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/wrl/Release/libwrl.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EA5386AC0BD84EFCB8CD90D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ED6A7D800DED4F18ADC9D75B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F09A2534708C4E45883CA2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/build";
+			};
+			name = Debug;
+		};
+		F9AFD16890FD49B39867875E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS,_USE_MATH_DEFINES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io/io_autogen/include","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/io";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FBD9395156704094A48CD020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/test","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src","/Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/../..");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = wrltest_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CE81CD29284DBBB75B5246 /* Build configuration list for PBXAggregateTarget "WrlViewer1_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1251FD81C8094E9191ADA837 /* Debug */,
+				DC2DDF95150046A5B5CF18CC /* Release */,
+				3336223A007843E2A3A77727 /* MinSizeRel */,
+				719ED574A6F64DCD9AD47EF9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		044C3073EE8A4B21AC9EFEFE /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE3AD478AEC4E70989CD456 /* Debug */,
+				EA5386AC0BD84EFCB8CD90D2 /* Release */,
+				CE86421C460142BEB6FD2DE3 /* MinSizeRel */,
+				5E2D2048074C4A8980B1A7BE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0596D5FD69ED4E77B0EB8B38 /* Build configuration list for PBXNativeTarget "wrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E595D7999114A7195B8B522 /* Debug */,
+				CA528EA296E04A37A8F23DD3 /* Release */,
+				847F383389C54670A419FB59 /* MinSizeRel */,
+				B27F67898A4B4D99B447AFCB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0918133D02084D439276A4B6 /* Build configuration list for PBXNativeTarget "wrltest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179DBDE7B99A4D96AB333DCF /* Debug */,
+				E56C67D9E1FC46CF95A69212 /* Release */,
+				8B63A988200C410DB8A15656 /* MinSizeRel */,
+				A1AD4260DA914A79A6692E5A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		09682177C7B244B192FAA09D /* Build configuration list for PBXAggregateTarget "wrltest_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD9395156704094A48CD020 /* Debug */,
+				3C634DECC72743859BA97919 /* Release */,
+				B8850D268FA14161AB5AA36A /* MinSizeRel */,
+				241CF751884249B4BA7FC4C5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5EFDCEFBC5954208A68D9369 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0560F4A46A05472B825B7379 /* Debug */,
+				980EB04B45134650873FF3EF /* Release */,
+				CC0DEC2F0FF942AFB9DC37C4 /* MinSizeRel */,
+				E04487D49F35485B9DAA730B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C17B8D8919241D2B603E5F9 /* Build configuration list for PBXProject "vrmlViewer1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09A2534708C4E45883CA2B8 /* Debug */,
+				2F9C8B28610B4A3484F2668E /* Release */,
+				335053AE94E4458185CF8847 /* MinSizeRel */,
+				546132110CB842C188E76D69 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8730072AF8A448FAB7B53F61 /* Build configuration list for PBXNativeTarget "WrlViewer1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB09FE56ACC46BD844EC8D7 /* Debug */,
+				D2BB93C3AA754065B260DF44 /* Release */,
+				913447316A0442F69686AD4A /* MinSizeRel */,
+				0269A9B62E1E49449813CA89 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88AA6A5C1CF24D8F8585F74D /* Build configuration list for PBXNativeTarget "io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A031C3EEC3DA401EB145C180 /* Debug */,
+				159BE4765AC14629B1472FB0 /* Release */,
+				F9AFD16890FD49B39867875E /* MinSizeRel */,
+				2DE14AC4E23641EB9A23157C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89532457839F4BE1B83723FC /* Build configuration list for PBXNativeTarget "util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891FBD93E0B74FF7ABF55C72 /* Debug */,
+				7A621DAF456F4B5E9C486D5C /* Release */,
+				BA7DD3810F09481D827EDEC2 /* MinSizeRel */,
+				8E57173670D645BDA741E770 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC40680562A447A5B6B1C59D /* Build configuration list for PBXAggregateTarget "wrl_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB61E733630C488398ED6677 /* Debug */,
+				DAED27FDEA934E6FB877A1DC /* Release */,
+				2317B2A9936D4B5499CC8330 /* MinSizeRel */,
+				E06F4D34963B44BDB9366AFE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4C35202C7414AFFB7F85FB5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D18AAE96346459FB8CB63BC /* Debug */,
+				64A45D6048F9425DB2A4C999 /* Release */,
+				5473DA4BC5E24A94A5B74197 /* MinSizeRel */,
+				ED6A7D800DED4F18ADC9D75B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E87FE013B2F84D5B93DFEBA0 /* Build configuration list for PBXAggregateTarget "io_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1DA63D863143DD9CD45230 /* Debug */,
+				CC77EC18AE9C4E31988D5869 /* Release */,
+				6942CC1F70A54570999D070E /* MinSizeRel */,
+				91B3F2DD66DA429D91B4CE58 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEEAA8B1191B460A8FD8B584 /* Build configuration list for PBXAggregateTarget "util_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CED5413E08A4E9C84442360 /* Debug */,
+				BBD1B524C2EC43629B7D5102 /* Release */,
+				8DD2B4AC47F34E189DBCF290 /* MinSizeRel */,
+				E2BF15EDE6864656BAF84FC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E2F38081BBC467BA5A10C10 /* Project object */;
+}

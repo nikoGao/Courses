@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/mocs_compilation.cpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/moc_WrlAboutDialog.cpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/../../../../src/viewer/WrlAboutDialog.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/moc_WrlGLWidget.cpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/../../../../src/viewer/WrlGLWidget.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/util/BBox.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/SceneGraph.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Group.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Node.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Transform.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Rotation.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Shape.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/IndexedFaceSet.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Appearance.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/wrl/Material.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlViewerData.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLShader.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLBuffer.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlGLHandles.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/moc_WrlMainWindow.cpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/../../../../src/viewer/WrlMainWindow.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppLoader.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Loader.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/AppSaver.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/io/Saver.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/src/viewer/WrlToolsWidget.hpp \
+  /Users/niko/Documents/Courses/C++/10_Naifan_Gao/build/viewer/WrlViewer1_autogen/EWIEGA46WW/moc_WrlToolsWidget.cpp

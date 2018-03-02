@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.578926"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2103"
+            endingLineNumber = "2103"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.579493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2024"
+            endingLineNumber = "2024"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.57988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2276"
+            endingLineNumber = "2276"
+            landmarkName = "SceneGraphProcessor::computeIsosurface (const Vec3f &amp;center, const Vec3f &amp;size, const int depth, const float scale, const bool cube, vector&lt;float&gt; &amp;fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.580245"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2014"
+            endingLineNumber = "2014"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.580657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2659"
+            endingLineNumber = "2659"
+            landmarkName = "SceneGraphProcessor::optimalCGSoft (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGrid"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.581197"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2205"
+            endingLineNumber = "2205"
+            landmarkName = "SceneGraphProcessor::computeIsosurface (const Vec3f &amp;center, const Vec3f &amp;size, const int depth, const float scale, const bool cube, vector&lt;float&gt; &amp;fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.582176"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2032"
+            endingLineNumber = "2032"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.582877"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2066"
+            endingLineNumber = "2066"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.583293"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2046"
+            endingLineNumber = "2046"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.583649"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2047"
+            endingLineNumber = "2047"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.583997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2062"
+            endingLineNumber = "2062"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.584263"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2115"
+            endingLineNumber = "2115"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.584504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2277"
+            endingLineNumber = "2277"
+            landmarkName = "SceneGraphProcessor::computeIsosurface (const Vec3f &amp;center, const Vec3f &amp;size, const int depth, const float scale, const bool cube, vector&lt;float&gt; &amp;fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.584758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2133"
+            endingLineNumber = "2133"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.585037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2130"
+            endingLineNumber = "2130"
+            landmarkName = "SceneGraphProcessor::fitWatertight (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool isCube, vector&lt;float&gt;&amp; fGrid)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.585269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3009"
+            endingLineNumber = "3009"
+            landmarkName = "SceneGraphProcessor::optimalJacobi (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGrid"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.585542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2999"
+            endingLineNumber = "2999"
+            landmarkName = "SceneGraphProcessor::optimalJacobi (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGrid"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.585772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3084"
+            endingLineNumber = "3084"
+            landmarkName = "SceneGraphProcessor::multiGridFiner (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGridIn"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.586026"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3062"
+            endingLineNumber = "3062"
+            landmarkName = "SceneGraphProcessor::multiGridFiner (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGridIn"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.586299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3126"
+            endingLineNumber = "3126"
+            landmarkName = "SceneGraphProcessor::multiGridFiner (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGridIn"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wrl/SceneGraphProcessor.cpp"
+            timestampString = "535683023.586537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3088"
+            endingLineNumber = "3088"
+            landmarkName = "SceneGraphProcessor::multiGridFiner (const Vec3f&amp; center, const Vec3f&amp; size, const int depth, const float scale, const bool cube, vector&lt;float&gt;&amp; fGridIn"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

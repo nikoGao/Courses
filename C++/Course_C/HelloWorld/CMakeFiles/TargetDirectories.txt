@@ -1,0 +1,4 @@
+/Users/niko/Documents/Courses/C++/Course_C/HelloWorld/CMakeFiles/install.dir
+/Users/niko/Documents/Courses/C++/Course_C/HelloWorld/CMakeFiles/helloWorld.dir
+/Users/niko/Documents/Courses/C++/Course_C/HelloWorld/CMakeFiles/ALL_BUILD.dir
+/Users/niko/Documents/Courses/C++/Course_C/HelloWorld/CMakeFiles/ZERO_CHECK.dir
